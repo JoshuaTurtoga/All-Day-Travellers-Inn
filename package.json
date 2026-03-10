@@ -1,0 +1,12 @@
+{
+  "name": "all-day-travellers-inn",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix InnSightPMS run dev --",
+    "build": "npm --prefix InnSightPMS run build",
+    "lint": "npm --prefix InnSightPMS run lint",
+    "preview": "npm --prefix InnSightPMS run preview --",
+    "install:app": "npm --prefix InnSightPMS install",
+    "postinstall": "npm run install:app"
+  }
+}
